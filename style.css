@@ -77,6 +77,7 @@ header {
 
 .container:hover{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
 
 .player-img{
@@ -85,6 +86,11 @@ header {
     position: relative;
     top: -50px;
     left: 50px;
+}
+
+.player-img:hover{
+    height: 290px;
+    transition: all 0.5s ease;
 }
 
 .player-img img{
